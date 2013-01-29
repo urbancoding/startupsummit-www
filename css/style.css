@@ -95,7 +95,7 @@ a {
 }
 
 .overview{
-    margin-top:25px;
+  padding: 20px 0;
 }
 .overview p{
     font-family: 'Helvetica Neue', serif;
@@ -105,17 +105,15 @@ a {
 
 
 section h2{
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 1;
-    margin-top:0;
-    padding-top: 25px;
-    padding-bottom: 10px;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 1;
+  margin: 0 0 20px 0;
 }
 
 .speakers{
     background-image:url(../img/speakers-bg.png);
-    margin-top:25px;
+    padding: 20px 0;
     text-align: center;
 }
 .speakers img{
