@@ -2,7 +2,9 @@ body {
     font-family: 'Enriqueta', serif;
     font-size: 18px;
 }
-
+a {
+    color:#ff8830;
+}
 header{
     margin-top:30px;
 }
@@ -90,13 +92,12 @@ header h2{
 .mast a.register:hover { background-image: url('../img/register-button-hover.png'); }
 .mast a.register:active { background-image: url('../img/register-button-active.png'); }
 
-a {
-    color:#ff8830;
-}
+
 
 .overview{
   padding: 20px 0;
 }
+
 .overview p{
     font-family: 'Helvetica Neue', serif;
     font-size: 14px;
@@ -120,11 +121,23 @@ section h2{
     display: block;
     margin: 0 auto 5px auto;
 }
-.speakers p.description{
-    font-family: 'Helvetica', serif;
-    font-size: 14px;
-    padding: 5px;
+.speaker h2{
+    color:#ff8830;
+    font-size: 18px;
+    margin: 0;
 }
+.speaker h3{
+    color:#333;
+    font-family: 'Helvetica', serif;
+    font-size: 12px;
+    line-height: 1;
+}
+
+.speaker a{
+    text-decoration: none;
+}
+
+
 footer{
     font-family: 'Helvetica Neue', serif;
     font-size: 14px;
@@ -147,4 +160,38 @@ footer .links ul li{
 
 footer .links .separator{
     color:#999999;
+}
+
+.speaker-modal header{
+    border-bottom: 1px solid #EEE;
+    padding: 0 15px;
+    text-align: left;
+}
+
+.speaker-modal header h2{
+    color:#ff8830;
+    font-size: 18px;
+    line-height: 1;
+    display: inline;
+    margin:0;
+}
+
+.speaker-modal header h3{
+    color:#8A8282;
+    font-family: 'Helvetica', serif;
+    font-size: 14px;
+    display: inline;
+    margin:0;
+
+}
+.speaker-modal header{
+    border-bottom: 1px solid #EEE;
+    padding: 5px 15px;
+}
+.speaker-modal section.bio{
+    margin-top: 40px;
+    font-family: 'Helvetica Neue', serif;
+    font-size: 14px;
+    border-bottom: 1px solid #EEE;
+    padding: 5px 15px;
 }
