@@ -93,7 +93,8 @@ header h2 {
 }
 
 .mast a.register {
-    background-image: url('../img/register-button.png');
+    background-image: url('../img/register-button-sprite.png');
+    background-position: 0 -120px;
     background-repeat: no-repeat;
     width: 170px;
     height: 59px;
@@ -103,11 +104,11 @@ header h2 {
 }
 
 .mast a.register:hover {
-    background-image: url('../img/register-button-hover.png');
+  background-position: 0 -60px;
 }
 
 .mast a.register:active {
-    background-image: url('../img/register-button-active.png');
+  background-position: 0 0;
 }
 
 .overview {
