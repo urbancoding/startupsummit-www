@@ -1,3 +1,3 @@
 $(function(){
-    $('a[rel="colorbox"]').colorbox({width:650, current:"{current} of {total}", opacity:0.7});
+    $('a[rel="colorbox"]').colorbox({current:"{current} of {total}", opacity:0.7});
 });

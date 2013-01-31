@@ -127,6 +127,10 @@ section h2 {
     margin: 0 0 20px 0;
 }
 
+.speakers h2{
+    margin: 0;
+}
+
 .speakers {
     background-image: url(../img/speakers-bg.png);
     padding: 20px 0;
@@ -182,7 +186,7 @@ footer .links .separator {
 
 .speaker-modal {
     font-family: 'Helvetica Neue', serif;
-    font-size: 14px;
+    font-size: 12px;
     border-bottom: 1px solid #EEE;
     padding: 5px 15px;
 }
@@ -208,9 +212,8 @@ footer .links .separator {
     font-size: 14px;
     display: inline;
     margin: 0;
-
+    line-height: 1.7em;
 }
-
 .speaker-modal .bio {
  margin-top: 10px;
 }
