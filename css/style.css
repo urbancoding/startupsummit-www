@@ -146,15 +146,8 @@ section h2 {
 
 .speakers img {
     display: block;
-    margin: 0 auto 5px auto;
-
+    margin: 0 0 5px 5px;
 }
-
-/*.speaker:hover{*/
-    /*-moz-box-shadow: 4px 4px 7px #999;*/
-    /*box-shadow: 4px 4px 7px #999;*/
-    /*-webkit-box-shadow: 4px 4px 7px #999;*/
-/*}*/
 
 .speaker h2 {
     color: #ff8830;
