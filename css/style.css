@@ -57,6 +57,12 @@ header h2 {
     background-image: url(../img/facebook.png);
 }
 
+.social > a.facebook{
+    display:none;
+}
+
+
+
 .facebook:hover {
     background-image: url(../img/facebook-hover.png);
     cursor: pointer;
