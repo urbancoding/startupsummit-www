@@ -134,7 +134,7 @@ section h2 {
     margin: 0 0 20px 0;
 }
 
-.speakers h2{
+.speakers h2, .sponsors h2{
     margin: 0 0 10px 0;
 }
 
@@ -224,4 +224,134 @@ footer .links .separator {
 }
 .speaker-modal .bio {
  margin-top: 10px;
+}
+
+.sponsors{
+    padding: 20px 0;
+}
+
+.sponsors .row{
+    margin-top: 15px;
+}
+
+.sponsor{
+    margin-left: 25px;
+    display: inline-block;
+    cursor:pointer;
+    background: url(../img/sponsors/sprites.png) no-repeat;
+
+}
+
+.bba:hover{
+    background-position: -208px -5px ;
+    width: 200px;
+    height: 42px;
+}
+
+.bba{
+    background-position: -3px -4px ;
+    width: 200px;
+    height: 42px;
+}
+
+.bradley:hover{
+    background-position: -3px -53px ;
+    width: 200px;
+    height: 48px;
+}
+
+.bradley{
+    background-position: -415px -5px ;
+    width: 200px;
+    height: 48px;
+}
+
+.daxko:hover{
+    background-position: -422px -58px ;
+    width: 200px;
+    height: 47px;
+}
+
+.daxko{
+    background-position: -210px -55px ;
+    width: 200px;
+    height: 47px;
+}
+
+.finergrind:hover{
+    background-position: -129px -107px ;
+    width: 125px;
+    height: 117px;
+}
+
+.finergrind{
+    background-position: -4px -108px ;
+    width: 125px;
+    height: 117px;
+}
+
+.fleetio:hover{
+    background-position: -258px -160px ;
+    width: 200px;
+    height: 51px;
+}
+
+.fleetio{
+    background-position: -254px -106px ;
+    width: 200px;
+    height: 51px;
+}
+
+.isotope11:hover{
+    background-position: -463px -232px ;
+    width: 200px;
+    height: 56px;
+}
+
+.isotope11{
+    background-position: -261px -315px ;
+    width: 200px;
+    height: 56px;
+}
+
+.julie:hover{
+    background-position: -466px -170px ;
+    width: 200px;
+    height: 51px;
+}
+
+.julie{
+    background-position: -465px -109px ;
+    width: 200px;
+    height: 51px;
+}
+
+.techbirmingham:hover{
+    background-position: -235px -226px ;
+    width: 223px;
+    height: 81px;
+}
+
+.techbirmingham{
+    background-position: -6px -229px ;
+    width: 223px;
+    height: 81px;
+}
+
+.urbancoding:hover{
+    background-position: -134px -322px ;
+    width: 125px;
+    height: 125px;
+}
+
+.urbancoding{
+    background-position: -2px -319px ;
+    width: 125px;
+    height: 125px;
+}
+.divider{
+    background-image: url(../img/dividerline.png);
+    background-repeat: repeat-x;
+    height:1px;
+    margin-top: 20px;
 }
