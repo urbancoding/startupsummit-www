@@ -134,7 +134,14 @@ section h2 {
     margin: 0 0 20px 0;
 }
 
-.speakers h2, .sponsors h2{
+section h3 {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1;
+    margin: 0 0 20px 0;
+}
+
+.speakers h2, .sponsors h2, .sponsors h3{
     margin: 0 0 10px 0;
 }
 
@@ -168,14 +175,16 @@ section h2 {
 }
 
 footer {
-    font-family: 'Helvetica Neue', serif;
-    font-size: 14px;
-    margin-top: 40px;
+  font-family: 'Helvetica Neue', serif;
+  font-size: 14px;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  border-top: 1px solid #e3e3e3;
 }
 
 footer .links a {
     display: inline-block;
-    padding: 5px;
+    padding: 0 5px;
 }
 
 footer .links ul {
@@ -230,16 +239,11 @@ footer .links .separator {
     padding: 20px 0;
 }
 
-.sponsors .row{
-    margin-top: 15px;
-}
-
 .sponsor{
-    margin-left: 25px;
-    display: inline-block;
-    cursor:pointer;
-    background: url(../img/sponsors/sprites.png) no-repeat;
-
+  display: block;
+  cursor:pointer;
+  background: url(../img/sponsors/sprites.png) no-repeat;
+  margin-bottom: 15px;
 }
 
 .bba:hover{
@@ -249,9 +253,11 @@ footer .links .separator {
 }
 
 .bba{
-    background-position: -3px -4px ;
-    width: 200px;
-    height: 42px;
+  background-position: -3px -4px ;
+  width: 200px;
+  height: 42px;
+  margin-top: 37px;
+  margin-left: 10px;
 }
 
 .bradley:hover{
@@ -261,9 +267,11 @@ footer .links .separator {
 }
 
 .bradley{
-    background-position: -415px -5px ;
-    width: 200px;
-    height: 48px;
+  background-position: -415px -5px ;
+  width: 200px;
+  height: 48px;
+  margin-top: 41px;
+  margin-left: 10px;
 }
 
 .daxko:hover{
@@ -273,9 +281,11 @@ footer .links .separator {
 }
 
 .daxko{
-    background-position: -210px -55px ;
-    width: 200px;
-    height: 47px;
+  background-position: -210px -55px ;
+  width: 200px;
+  height: 47px;
+  margin-top: 41px;
+  margin-left: 10px;
 }
 
 .finergrind:hover{
@@ -285,9 +295,11 @@ footer .links .separator {
 }
 
 .finergrind{
-    background-position: -4px -108px ;
-    width: 125px;
-    height: 117px;
+  background-position: -4px -108px ;
+  width: 125px;
+  height: 117px;
+  margin-top: 0px;
+  margin-left: 47px;
 }
 
 .fleetio:hover{
@@ -297,9 +309,11 @@ footer .links .separator {
 }
 
 .fleetio{
-    background-position: -254px -106px ;
-    width: 200px;
-    height: 51px;
+  background-position: -254px -106px ;
+  width: 200px;
+  height: 51px;
+  margin-top: 15px;
+  margin-left: 10px;
 }
 
 .isotope11:hover{
@@ -309,9 +323,11 @@ footer .links .separator {
 }
 
 .isotope11{
-    background-position: -261px -315px ;
-    width: 200px;
-    height: 56px;
+  background-position: -261px -315px ;
+  width: 200px;
+  height: 56px;
+  margin-top: 12px;
+  margin-left: 10px;
 }
 
 .julie:hover{
@@ -321,9 +337,11 @@ footer .links .separator {
 }
 
 .julie{
-    background-position: -465px -109px ;
-    width: 200px;
-    height: 51px;
+  background-position: -465px -109px ;
+  width: 200px;
+  height: 51px;
+  margin-top: 15px;
+  margin-left: 10px;
 }
 
 .techbirmingham:hover{
@@ -333,9 +351,11 @@ footer .links .separator {
 }
 
 .techbirmingham{
-    background-position: -6px -229px ;
-    width: 223px;
-    height: 81px;
+  background-position: -6px -229px ;
+  width: 223px;
+  height: 81px;
+  margin-top: 0px;
+  margin-left: 0px;
 }
 
 .urbancoding:hover{
@@ -345,13 +365,9 @@ footer .links .separator {
 }
 
 .urbancoding{
-    background-position: -2px -319px ;
-    width: 125px;
-    height: 125px;
-}
-.divider{
-    background-image: url(../img/dividerline.png);
-    background-repeat: repeat-x;
-    height:1px;
-    margin-top: 20px;
+  background-position: -2px -319px ;
+  width: 125px;
+  height: 125px;
+  margin-top: 0px;
+  margin-left: 52px;
 }
