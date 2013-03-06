@@ -153,7 +153,8 @@ section h3 {
 .speaker h2 {
     color: #ff8830;
     font-size: 18px;
-    margin: 0;
+    margin: 0 0 5px 0;
+    line-height: 1.2;
 }
 
 .speaker h3 {
