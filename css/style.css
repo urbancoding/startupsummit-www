@@ -65,7 +65,7 @@ header h2 {
 .mast {
     background-image: url('../img/grid-18px.jpg');
     background-position: 0 200px;
-    height: 195px;
+    /*height: 195px;*/
     margin-top: 25px;
     color: #ff8022;
     -webkit-box-shadow: inset 0px 0px 3px 3px rgba(0, 0, 0, .05);
@@ -79,6 +79,13 @@ header h2 {
     width: 545px;
 }
 
+@media (max-width: 622px) {
+    .mast .callout{
+        width: auto;
+    }
+}
+
+
 .mast .robot {
     margin-left: 80px;
     position: relative;
@@ -89,7 +96,7 @@ header h2 {
 
 @media (max-width: 980px) {
     .mast .robot{
-        background: none;
+        display: none;
     }
 }
 
