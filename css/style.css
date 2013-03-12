@@ -1,3 +1,6 @@
+html{
+    min-width: 400px;
+}
 body {
     font-family: 'Enriqueta', serif;
     font-size: 18px;
@@ -79,7 +82,8 @@ header h2 {
     width: 545px;
 }
 
-@media (max-width: 622px) {
+@media (max-width: 622px)
+{
     .mast .callout{
         width: auto;
         height: auto;
