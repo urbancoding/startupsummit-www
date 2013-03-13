@@ -1,5 +1,5 @@
 html{
-    min-width: 400px;
+    /*min-width: 400px;*/
 }
 body {
     font-family: 'Enriqueta', serif;
@@ -29,12 +29,23 @@ header h1 {
     line-height: 1;
 }
 
+
 header h2 {
     font-family: 'Enriqueta', serif;
     font-size: 18px;
     margin: 0 0 0 66px;
     line-height: 1;
     color: #333333;
+}
+
+
+@media (max-width:480px){
+    header h1{
+        font-size: 34px;
+    }
+    header h2 {
+        font-size: 18px;
+    }
 }
 
 .social > a {
@@ -92,8 +103,8 @@ header h2 {
 }
 @media (max-width: 493px) {
     .mast .callout{
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-left: 15px;
+        margin-right: 15px;
     }
 }
 
@@ -117,6 +128,12 @@ header h2 {
     line-height: 1.5em;
 }
 
+@media (max-width:480px){
+    .mast p {
+        font-size: 18px;
+    }
+}
+
 .mast a.register {
     background-image: url('../img/register-button-sprite.png');
     background-position: 0 -120px;
@@ -126,6 +143,22 @@ header h2 {
     text-indent: -9999px;
     display: block;
     margin-left: 150px;
+}
+
+@media (max-width:480px){
+    .mast a.register{
+        margin: 0 auto;
+        /*background-image: url('../img/register-button-phone.png');*/
+        /*width: 120px;*/
+        /*height: 42px;*/
+        /*background-position: 0 0;*/
+
+        background-image: none;
+        text-indent: 0;
+        text-align: center;
+        text-decoration: underline;
+        font-size: 20px;
+    }
 }
 
 .mast a.register:hover {
