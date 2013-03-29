@@ -429,3 +429,15 @@ footer .links .separator {
   margin-top: 0px;
   margin-left: 52px;
 }
+
+.warren-averett {
+  background-position: -479px -319px ;
+  width: 200px;
+  height: 31px;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+
+.warren-averett:hover{
+  background-position: -479px -351px ;
+}
