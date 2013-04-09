@@ -402,6 +402,18 @@ footer .links .separator {
   margin-left: 10px;
 }
 
+.plaidjack {
+  background-position: -267px -394px ;
+  width: 195px;
+  height: 44px;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+.plaidjack:hover {
+  background-position: -485px -394px ;
+}
+
 .techbirmingham:hover{
     background-position: -235px -226px ;
     width: 223px;
