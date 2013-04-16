@@ -27,8 +27,8 @@ header h1 {
     font-size: 36px;
     margin: 0 0 0 66px;
     line-height: 1;
+    color: #333333;
 }
-
 
 header h2 {
     font-family: 'Enriqueta', serif;
@@ -38,15 +38,28 @@ header h2 {
     color: #333333;
 }
 
+header .logo { float: left; }
+header .logo a:hover { text-decoration: none; }
 
-@media (max-width:480px){
-    header h1{
-        font-size: 34px;
-    }
-    header h2 {
-        font-size: 18px;
-    }
+header ul {
+  float: right;
+  font-size: 16px;
+  list-style-type: none;
+  margin-right: 15px;
 }
+
+header ul li { float: left; margin: 12px 0 0 0; }
+header ul li a { border: 1px solid transparent; padding: 4px 12px; }
+header ul li a:hover {
+  color: #ffac3b;
+  text-decoration: none;
+  background: #fffff8;
+  border-radius: 25px;
+  -webkit-box-shadow: inset 0px 0px 1px 1px rgba(0, 0, 0, .1);
+  box-shadow: inset 0px 0px 1px 1px rgba(0, 0, 0, .1);
+}
+
+.social { float: right; }
 
 .social > a {
     float: right;
@@ -76,6 +89,19 @@ header h2 {
     cursor: pointer;
 }
 
+@media (max-width:480px){
+    header h1{
+        font-size: 32px;
+    }
+    header h2 {
+        font-size: 18px;
+    }
+    header .light { margin-top: -3px; }
+    header .logo { margin: 0 auto 10px auto; width: 350px; float: none; }
+    header ul { float: left; margin: 2px 0 0 0; }
+    header .social { float: right; clear: both; }
+}
+
 .mast {
     background-image: url('../img/grid-18px.jpg');
     background-position: 0 200px;
@@ -98,7 +124,6 @@ header h2 {
     .mast .callout{
         width: auto;
         height: auto;
-
     }
 }
 @media (max-width: 493px) {
@@ -148,13 +173,6 @@ header h2 {
 @media (max-width:480px){
     .mast a.register{
         margin: 0 auto;
-        /*background-image: url('../img/register-button-phone.png');*/
-        /*width: 120px;*/
-        /*height: 42px;*/
-        /*background-position: 0 0;*/
-
-        background-image: none;
-        text-indent: 0;
         text-align: center;
         text-decoration: underline;
         font-size: 20px;
@@ -193,6 +211,11 @@ section h3 {
     margin: 0 0 20px 0;
 }
 
+@media (max-width:480px){
+  section h2 { text-align: center; }
+  section img { margin: 0 25px; }
+}
+
 .speakers h2, .sponsors h2, .sponsors h3{
     margin: 0 0 10px 0;
 }
@@ -229,34 +252,10 @@ section h3 {
 
 .speaker a {
     text-decoration: none;
-
 }
 
-footer {
-  font-family: 'Helvetica Neue', serif;
-  font-size: 14px;
-  margin-bottom: 20px;
-  padding-top: 20px;
-  border-top: 1px solid #e3e3e3;
-}
-
-footer .links a {
-    display: inline-block;
-    padding: 0 5px;
-}
-
-footer .links ul {
-    list-style: none;
-    float: right;
-
-}
-
-footer .links ul li {
-    display: inline;
-}
-
-footer .links .separator {
-    color: #999999;
+@media (max-width:480px){
+  .speaker img { margin-left: 73px; }
 }
 
 .speaker-modal {
@@ -452,4 +451,70 @@ footer .links .separator {
 
 .warren-averett:hover{
   background-position: -479px -351px ;
+}
+
+@media (max-width:480px){
+  .sponsor { margin: 10px auto 30px auto; }
+}
+
+footer {
+  font-family: 'Helvetica Neue', serif;
+  font-size: 14px;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  border-top: 1px solid #e3e3e3;
+}
+
+footer .links a {
+    display: inline-block;
+    padding: 0 5px;
+}
+
+footer .links ul {
+    list-style: none;
+    float: right;
+
+}
+
+footer .links ul li {
+    display: inline;
+}
+
+footer .links .separator {
+    color: #999999;
+}
+
+@media (max-width:480px){
+  footer { text-align: center; }
+  footer .links ul { float: none; margin: 10px 0 0 0; font-size: 11px; }
+}
+
+/** BEGIN <TAKEAWAY> **/
+
+.mast.alternate { text-align: center; height: auto; }
+.mast.alternate .callout { width: 480px; margin: 0 auto; }
+.mast.alternate .callout p { margin-bottom: 20px; font-size: 18px; }
+
+@media (max-width:480px){
+  .mast.alternate .callout { width: auto; padding: 8px 15px 0 15px; }
+}
+
+.takeaway { padding: 20px 0; }
+.takeaway ul { margin-bottom: 20px; }
+.takeaway ul li { line-height: 1.5; }
+
+/** BEGIN <SCHEDULE> **/
+
+.schedule { line-height: 1.4; padding-top: 20px; }
+.schedule table { border-collapse: collapse; margin-bottom: 20px; }
+.schedule tr td { padding: 5px 10px; }
+.schedule .break { background-color: #e3e3e3; }
+.schedule .time { font-weight: bold; white-space: nowrap; }
+.schedule em { font-weight: bold; display: block; font-style: normal; }
+.schedule .company { color: #777; }
+.schedule .photos { float: right; text-align: right; }
+.schedule .photos img { width: 55px; height: 55px; }
+
+@media (max-width:480px){
+  .schedule .photos { display: none; }
 }
