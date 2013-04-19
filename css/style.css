@@ -97,15 +97,30 @@ header ul li a:hover {
         font-size: 18px;
     }
     header .light { margin-top: -3px; }
-    header .logo { margin: 0 auto 10px auto; width: 350px; float: none; }
-    header ul { float: left; margin: 2px 0 0 0; }
+    header .logo { margin: 0 auto 10px auto; width: 380px; float: none; }
     header .social { float: right; clear: both; }
+
+  header ul { float: left; margin: 2px 0 0 0; }
+  header ul li a { border: 0 !important; padding: 0 15px 0 0; }
+  header ul li a:hover {
+    text-decoration: underline;
+    border: 0 !important;
+    background: transparent !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+  }
+}
+
+@media (max-width:320px){
+  header h1 { font-size: 24px; }
+  header .light { margin-top: -6px; }
+  header .logo { width: 320px; }
+  header ul { font-size: 14px; }
 }
 
 .mast {
     background-image: url('../img/grid-18px.jpg');
     background-position: 0 200px;
-    height: 195px;
     margin-top: 25px;
     color: #ff8022;
     -webkit-box-shadow: inset 0px 0px 3px 3px rgba(0, 0, 0, .05);
@@ -168,11 +183,12 @@ header ul li a:hover {
     text-indent: -9999px;
     display: block;
     margin-left: 150px;
+    margin-bottom: 10px;
 }
 
 @media (max-width:480px){
     .mast a.register{
-        margin: 0 auto;
+        margin: 0 auto 10px auto;
         text-align: center;
         text-decoration: underline;
         font-size: 20px;
@@ -213,7 +229,7 @@ section h3 {
 
 @media (max-width:480px){
   section h2 { text-align: center; }
-  section img { margin: 0 25px; }
+  section img { margin: 0 auto; display: block; }
 }
 
 .speakers h2, .sponsors h2, .sponsors h3{
@@ -255,7 +271,7 @@ section h3 {
 }
 
 @media (max-width:480px){
-  .speaker img { margin-left: 73px; }
+  .speaker img { margin: 0 auto; display: block; position: relative; left: -15px; }
 }
 
 .speaker-modal {
@@ -454,7 +470,7 @@ section h3 {
 }
 
 @media (max-width:480px){
-  .sponsor { margin: 10px auto 30px auto; }
+  .sponsor { margin-left: auto; margin-right: auto; display: block; }
 }
 
 footer {
